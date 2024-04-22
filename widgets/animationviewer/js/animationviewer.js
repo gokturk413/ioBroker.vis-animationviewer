@@ -66,9 +66,15 @@ vis.binds.animationviewer = {
                     var st2 = state;
 
                     var left = data.left;
+                    if(st1 === undefined)
+                    {
                     var x1 = selectCase(st1.val, data.Condition0, data.ConditionValue0);
+                    }
                     var right = data.right;
+                    if(st2 === undefined)
+                    {
                     var x2 = selectCase(st2.val, data.Condition1, data.ConditionValue1);
+                    }
                     if (x1 == true || x2 == true) {
                         if (x1 == true) {
                             checkleft(left);
@@ -255,9 +261,15 @@ up_down:{
                     var st2 = state;
 
                     var up = data.up;
+                    if(st1 === undefined)
+                    {
                     var x1 = selectCase(st1.val, data.Condition0, data.ConditionValue0);
+                    }
                     var down = data.down;
+                    if(st2 === undefined)
+                    {
                     var x2 = selectCase(st2.val, data.Condition1, data.ConditionValue1);
+                    }
                     if (x1 == true || x2 == true) {
                         if (x1 == true) {
                             checkup(up);
