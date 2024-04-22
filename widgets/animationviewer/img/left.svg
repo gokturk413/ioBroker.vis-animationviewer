@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="500px" viewBox="0 0  500 500" preserveAspectRatio="xMidYMid meet" >
+<style>
+ /* <![CDATA[ */
+    .path90left{
+  animation: dashleft 32s linear infinite;
+}
+
+@keyframes dashleft {
+ to {
+    stroke-dashoffset: -1000;
+  }
+}
+    /* ]]> */
+</style>
+<line class="path90left" id="e1_line" x1="-254.75234985351562" y1="157.47930908203125" x2="-254.75234985351562" y2="816.4786987304688" stroke="#491602" style="stroke-width: 10px; fill: none; stroke-dasharray: 10px, 10px; stroke-dashoffset: 1; stroke-linecap: butt; stroke-linejoin: miter;" transform="matrix(0.00396113 1.01973 -1.02095 0.00396585 857.527 280.795)"/></svg>
