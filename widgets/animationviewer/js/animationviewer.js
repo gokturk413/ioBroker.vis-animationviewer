@@ -91,14 +91,12 @@ vis.binds.animationviewer = {
             });
             // subscribe on updates of value
             if (data.oid) {
-                debugger;
                 vis.states.bind(data.oid + '.val', function (e, newVal, oldVal) {
                     $div.find('.animationviewer-value').html(newVal);
                 });
             }
 
             if (data.oid0) {
-                debugger;
                 vis.states.bind(data.oid0 + '.val', function (e, newVal, oldVal) {
                     var condition = data.Condition0;
                     var conditionvalue = data.ConditionValue0;
@@ -115,7 +113,6 @@ vis.binds.animationviewer = {
             }
 
             if (data.oid1) {
-                debugger;
                 vis.states.bind(data.oid1 + '.val', function (e, newVal, oldVal) {
                     var condition = data.Condition1;
                     var conditionvalue = data.ConditionValue1;
@@ -286,14 +283,12 @@ up_down:{
             });
             // subscribe on updates of value
             if (data.oid) {
-                debugger;
                 vis.states.bind(data.oid + '.val', function (e, newVal, oldVal) {
                     $div.find('.animationviewer-value').html(newVal);
                 });
             }
 
             if (data.oid0) {
-                debugger;
                 vis.states.bind(data.oid0 + '.val', function (e, newVal, oldVal) {
                     var condition = data.Condition0;
                     var conditionvalue = data.ConditionValue0;
@@ -310,7 +305,6 @@ up_down:{
             }
 
             if (data.oid1) {
-                debugger;
                 vis.states.bind(data.oid1 + '.val', function (e, newVal, oldVal) {
                     var condition = data.Condition1;
                     var conditionvalue = data.ConditionValue1;
